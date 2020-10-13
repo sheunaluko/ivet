@@ -1,0 +1,36 @@
+.settingsMenu { 
+  position: fixed;
+  top: 8.5px;
+  right: 45px;
+}
+
+
+      <Dropdown item simple text="Dropdown">
+        <Dropdown.Menu>
+          <Dropdown.Item>List Item</Dropdown.Item>
+          <Dropdown.Item>List Item</Dropdown.Item>
+          <Dropdown.Divider />
+          <Dropdown.Header>Header Item</Dropdown.Header>
+          <Dropdown.Item>
+            <i className="dropdown icon" />
+            <span className="text">Submenu</span>
+            <Dropdown.Menu>
+              <Dropdown.Item>List Item</Dropdown.Item>
+              <Dropdown.Item>List Item</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown.Item>
+          <Dropdown.Item>List Item</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+
+
+
+        <p>
+          <br />
+          Please begin by searching for and selecting an entity of interest
+          using the panel above.
+          <br />
+          <br /> You may also use the tabs in the top right to toggle the data
+          format and navigate to instructional information. <br />
+          <br />
+        </p>

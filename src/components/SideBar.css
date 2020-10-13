@@ -1,0 +1,52 @@
+body { 
+    margin : 0px ; 
+}
+
+#root {
+  min-height: 100vh;
+ 
+}
+
+.ui.segment { 
+  border-top: 0 none !important;
+  border-left: 0 none !important ; 
+  border-bottom: 0 none !important ; 
+  border-right: 0 none !important ;   
+  border-radius: 0px !important ;
+  box-shadow: none;
+  margin-bottom : 0px !important ; 
+}
+
+.pushable {
+    min-height : 100vh ; 
+}
+
+.pusher {
+    min-height : 100vh !important; 
+    transition: margin 1000ms !important; 
+}
+
+.pusher .ui.segment {
+    min-height : 100vh !important; 
+}
+
+
+ul {
+  margin-top: 0;
+}
+
+.sidebar.visible + .pusher{
+    margin-right: 250px;
+}
+
+
+
+.sidebar { 
+
+}
+
+.settingsMenu { 
+  position: fixed;
+  top: 8.5px;
+  right: 45px;
+}

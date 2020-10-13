@@ -17,9 +17,12 @@ This directory contains raw csv data files which were used to populate the cloud
 
 ## iVET Software Architecture 
 
-Hosting: iVET is hosted using [Firebase](https://firebase.google.com/), a Google cloud product. 
-Front End:  The frontend (website) was developed using the [create react app tool](https://github.com/facebook/create-react-app) and [semantic-ui react](https://react.semantic-ui.com/). 
-Database: All experimental data is stored in a cloud database called [Firestore](https://firebase.google.com/docs/firestore), which is a database product within [Firebase](https://firebase.google.com/). When a user enters a query, the iVET front end application queries this cloud database for the relevant experimental data and then graphs it. 
+<b>Hosting:</b> iVET is hosted using [Firebase](https://firebase.google.com/), a Google cloud product. <br /><br />
+<b>Front End:</b> The frontend (website) was developed using the [create react app tool](https://github.com/facebook/create-react-app) and [semantic-ui react](https://react.semantic-ui.com/). <br /><br />
+<b>Database:</b> All experimental data is stored in a cloud database called [Firestore](https://firebase.google.com/docs/firestore), which is a database product within [Firebase](https://firebase.google.com/). When a user enters a query, the iVET front end application queries this cloud database for the relevant experimental data and then graphs it. <br /> <br />
+
+
+
 
 
 

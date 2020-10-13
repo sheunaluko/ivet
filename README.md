@@ -2,7 +2,9 @@
 
 Access the live web application [here](https://immuno19.web.app/). 
 
-# About this github repository 
+<img src="./img/graphic_final.svg">
+
+## About this github repository 
 
 This repository contains two main subdirectories, <b>src</b> and <b>raw_data</b>.  
 
